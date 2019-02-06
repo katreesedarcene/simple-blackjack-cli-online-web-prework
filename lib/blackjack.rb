@@ -66,6 +66,7 @@ def runner
   until
   puts total > 21
   end_game
+end
 
   
 end
