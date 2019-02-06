@@ -65,6 +65,7 @@ def runner
   hit?(total)
   
   until total > 21
+  
 
 end
   end_game(total)
