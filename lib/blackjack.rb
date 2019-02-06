@@ -62,7 +62,7 @@ end
 def runner
   welcome
   initial_round
-  hit?
+  hit?(total)
   if input == "s"
    return total
   elsif input == "h"
