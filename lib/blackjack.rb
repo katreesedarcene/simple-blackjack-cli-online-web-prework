@@ -63,6 +63,7 @@ def runner
   welcome
   initial_round
   hit?
+  
   return total
   until total > 21
   end_game
