@@ -64,7 +64,7 @@ def runner
   initial_round
   hit?
   display_card_total
-  puts 
+  puts "Your cards add up to #{num}"
   end_game
 end
   
