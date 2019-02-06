@@ -64,8 +64,7 @@ def runner
   initial_round
   hit?
   return total
-  until total
-  puts total > 21
+  until total > 21
   end_game
 end
 
