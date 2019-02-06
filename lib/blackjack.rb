@@ -61,15 +61,9 @@ end
 
 def runner
   welcome
-  initial_round
+  total = initial_round
   hit?(total)
-  if input == "s"
-   return total
-  elsif input == "h"
-   return total + deal_card
-  else
-   invalid_command
-  end
+  
   until total > 21
   end_game
 end
